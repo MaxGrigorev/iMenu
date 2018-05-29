@@ -1,0 +1,688 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+
+* {
+    margin: 0;
+    padding: 0;
+    /*outline: 1px solid black;*/
+}
+
+html,
+body {
+    height: 100%;
+    background-color:  #f8f8f8;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+header
+{
+    height: 700px;
+    background-color:  #abeafa;
+}
+.header1
+{
+    height: 300px;
+    background-color:  #abeafa;
+}
+
+.content
+{
+    flex: 1 0 auto;
+    
+}
+
+footer
+{
+    flex: 0 0 auto;
+    
+    background-color:  #373737;
+}
+
+main
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+.conttov>p
+{
+    font-family: Roboto;
+    color:  #707070;
+    font-size: 22px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    font-style: italic;
+    text-align: left;
+    padding: 20px;
+}
+
+.new
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+    height: auto;
+    padding-bottom: 30px;
+    
+}
+
+.item
+{
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    background-color:  #ffffff;
+}
+
+.item:hover
+{
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    background-color:  #ffffff;
+    box-shadow: 0px 0px 6px #000;
+}
+
+.item a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.item img
+{
+    width: 250px;
+    height: 235px;
+}
+
+.corn
+{
+    position: absolute;
+    margin-top: -235px;
+    margin-left: 200px
+}
+
+#corntext
+{
+    font-family: Roboto;
+    color:  #ffffff;
+    font-size: 15px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 215px
+
+}
+
+.item1 #corn
+{
+    width: 46px;
+    height: 46px;
+    float: right;
+}
+
+.name
+{
+    font-family: Roboto;
+    color:  #333333;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    font-style: italic;
+    line-height: 18.012px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.price
+{
+    font-family: Roboto;
+    color:  #333333;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    font-style: italic;
+    text-align: right;
+    float: right;
+}
+
+.prices
+{
+    font-family: Roboto;
+    color:  rgba(254, 0, 0, 0.6);
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    font-style: italic;
+    text-align: right;
+    float: right;
+}
+
+.menu
+{
+    width: 270px;
+    height: 300px;
+    position: absolute;
+    background-color:  #f8f8f8;
+}
+
+.logo
+{
+    margin-left: 15%;
+}
+
+.logo a img
+{
+    width: 150px;
+    height: 150px;
+}
+
+.logo p
+{
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 75px;
+    color: white;
+    font-size: 25px;
+    font-family: Raleway;
+    
+}
+
+#socicon
+{
+    float: right;
+    margin-top: 5%;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+#socicon a
+{
+    text-decoration: none;
+}
+
+
+.tovari
+{
+    margin-left: 300px;
+    margin-top: -20px;
+}
+
+.conttov
+{
+    background-color:  #f8f8f8;
+}
+
+.welcome
+{
+    width: 270px;
+    height: 300px;
+    margin-left: 10%;
+    background-color:  #fff51f;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#welc
+{
+    font-family: Raleway;
+    color:  #333333;
+    font-size: 30px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 30px;/* Приближение из-за подстановки шрифтов */
+    padding-top: 30%;
+    padding-bottom: 10%;
+}
+
+#divis
+{
+    font-family: Raleway;
+    color:  #333333;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 14px;/* Приближение из-за подстановки шрифтов */
+
+}
+
+#tov_text
+{
+    font-family: Raleway;
+    color:  #fff51f;
+    font-size: 48px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 34px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+#tov_small_text
+{
+    font-family: Raleway;
+    color:  #fff51f;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.header_text input
+{
+    background-color:  #fff51f;
+    width: 124px;
+    height: 49px;
+    font-family: Raleway;
+    color:  #000000;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 800;
+    text-align:center;
+    margin-top: 30px;
+}
+
+.header_text
+{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 70%;
+}
+
+#soc
+{
+
+}
+
+#soc div
+{
+    display: inline-block;
+    width: 33.3%;
+    text-align:center;
+}
+
+#f
+{
+      
+    background: url(img/socicon/f%20icon.png) no-repeat center center;
+    background-color:#3b5997;
+    width: 390px;
+    height: 150px;
+}
+
+#tw
+{
+    background: url(img/socicon/tw%20icon.png) no-repeat center center;
+    background-color:#3fccfd;
+    width: 390px;
+    height: 150px;
+}
+
+#pin
+{
+    background: url(img/socicon/pin%20icon.png) no-repeat center center;
+    background-color:#cb2027; 
+    width: 390px;
+    height: 150px;
+}
+
+#insta
+{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.insta_img
+{
+    width: 175px;
+    height: 175px;
+    outline: 5px solid aliceblue;
+    margin-top: 20px;
+}
+.insta
+{
+    background-color:  #eaeaea;
+    height: 320px;
+    text-align: center;
+    font-family: Roboto;
+    color:  #333333;
+    font-size: 22px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    font-style: italic;
+    padding-top: 30px;
+}
+
+#copy
+{
+    clear: both;
+    padding-left: 10%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color:  #303030;
+}
+
+#socicon1
+{
+    float: right;
+    margin-right: 10%; 
+}
+
+#socicon1 a
+{
+    display: inline;
+    text-decoration: none;
+    
+}
+
+.foot
+{
+    background-color:  #373737;
+    font-family: Raleway;
+    color:  #ffffff;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    margin-right: 20px;
+    display: block;
+    margin-left: 10%;
+}
+
+.foot p
+{
+    margin-bottom: 10px;
+}
+
+.foot div
+{
+    float: left;
+    margin-right: 20px;
+    width: 17%;
+}
+
+footer a
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.email
+{
+    background-color: #fff51f;
+    font-family: Roboto;
+    color:  #333333;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 21px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    width: 180px;
+    height: 30px;
+}
+.sub
+{
+    background-color: black;
+    color:white;
+    width: 71px;
+    height: 30px;
+}
+
+.category-wrap {
+  background-color:  #26d2fc;
+
+}
+.category-wrap h3 {
+  font-family: Roboto;
+    color:  #ffffff;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 32px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+  position: relative;
+    background-color:  #333333;
+}
+
+.category-wrap ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+}
+.category-wrap a {
+  text-decoration: none;
+  display: block;  
+  font-size: 13px;
+  color: black;
+  padding: 5px;
+  position: relative;
+}
+
+.category-wrap a:hover {
+  background-color:  #333333;
+  color: white;
+}
+
+#kroshki
+{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#kroshki a:last-child
+{
+    background-color: yellow;
+}
+
+#kroshki a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.opisTovara h1
+{
+    font-family: Roboto;
+    color:  #353535;
+    font-size: 24px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 30px;
+    
+}
+.opisTovara
+{
+    font-family: Roboto;
+    color:  #707070;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 16px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.imgtovar
+{
+    float:left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.opis
+{
+    clear: both;
+}
+
+.opis h3
+{
+    background-color:  #26d2fc;
+    width: 160px;
+    height: 15px;
+    font-family: Roboto;
+    color:  #333333;
+    font-size: 10.91px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: center;
+    transform: scaleY(1.1);/* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    padding: 10px;
+}
+
+.price_tov
+{
+    font-family: Roboto;
+    color:  #111111;
+    font-size: 21.99px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 500;
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.opis_tov
+{
+    font-family: Roboto;
+    color:  #353535;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 20px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+#kupit
+{
+    background-color:  #fb4d01;
+    width: 130px;
+    height: 48px;
+    font-family: Roboto;
+    color:  #ffffff;
+    font-size: 15.99px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 20px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    transform: scaleY(1.0008);/* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius:15px;
+}
+
+#podrOpisTovara
+{
+    font-family: Verdana;
+    color:  #808080;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    margin-bottom: 30px;
+    border: 1px solid #808080;
+}
+
+.dopimg div
+{
+    background-color:  #eaeaea;
+    width: 70px;
+    height: 110px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px)
+{
+    .new
+{
+    grid-template-columns: repeat(2,1fr);
+}
+#insta{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    .new
+{
+    grid-template-columns: repeat(1,1fr);
+}
+    #insta{
+        display: none;
+    }
+}
+
+.logo1
+{
+    position: absolute;
+}
+
+.logo1
+{
+    margin-left: 15%;
+}
+
+.logo1 a img
+{
+    width: 150px;
+    height: 150px;
+}
+
+.logo1 p
+{
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 75px;
+    color: white;
+    font-size: 25px;
+    font-family: Raleway;
+    
+}
+
+#socicon2
+{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 80%;
+    text-decoration: none;
+}
+
+#socicon2 a
+{
+    text-decoration: none;
+}
+
+table
+{
+    margin-top: 20px;
+    border-left: 1px;
+}
+
+input.contact
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #efefef;
+    box-sizing: border-box;
+    background-color:  #ffffff;
+    width: 350px;
+    height: 27px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-family: Roboto;
+    color:  #aaaaaa;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+}
+
+textarea{
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #efefef;
+    box-sizing: border-box;
+    background-color:  #ffffff;
+    width: 350px;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+p.contacts{
+    font-family: Roboto;
+    color:  #333333;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+}
